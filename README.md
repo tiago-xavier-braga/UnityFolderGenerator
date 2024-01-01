@@ -1,5 +1,9 @@
 # FolderGenerator
 
+
+https://github.com/tiago-xavier-braga/UnityFolderGenerator/assets/62892930/c2ef7fbe-a1e0-4b36-9fb3-3ec02bd6a492
+
+
 This C# script for Unity automates the creation of the standard folder structure for Unity projects. Simply add this script to your project and run it to automatically generate folders according to the following pattern:
 
 ```
