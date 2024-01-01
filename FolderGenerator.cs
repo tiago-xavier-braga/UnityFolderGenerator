@@ -22,8 +22,10 @@ namespace PHS.Editor
                 { "Art", new List<string> { "Materials", "Meshes", "Textures", "Fonts", "Animations" } },
                 { "Audio", new List<string> { "Musics", "SoundEffects", "VoiceOvers" } },
                 { "Code", new List<string> { "Scripts", "Shaders" } },
+                { "Editor", new List<string>() },
                 { "Level", new List<string> { "Prefabs", "Scenes", "Timelines", "ScriptableObjects" } },
                 { "Settings", new List<string> { "Inputs", "Lighting", "Physics", "RenderPipeline" } },
+                { "Tests", new List<string>() },
                 { "ThirdParty", new List<string>() }
             };
 
@@ -51,7 +53,7 @@ namespace PHS.Editor
 
         void OnGUI()
         {
-            EditorGUILayout.LabelField("Insert the Project name used as the root folder");
+            EditorGUILayout.LabelField("Click to create the folders");
             this.Repaint();
             GUILayout.Space(70);
             if (GUILayout.Button("Generate!"))
